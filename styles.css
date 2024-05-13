@@ -74,3 +74,8 @@ ul,nav li,ol,h2,h1,p{
     text-align: center;
 }
 
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: beige;
+}
