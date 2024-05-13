@@ -1,5 +1,7 @@
 /*Add Header tag and change to color of homepage title bit*/
-
+*{
+    box-sizing: border-box;
+}
 body, ul, li, h1, h2, a{
     margin: 0;
     padding: 0;
@@ -12,35 +14,40 @@ a:link{
     color: hsl(0, 0%, 0%, 70%);
 }
 
+a:hover{
+    color: hsl(0,0%,0%);
+    font-weight: bold;
+}
+
 body{
     background-color:antiquewhite;
 }
 
-h1{
+.main-heading{
     border-bottom: 3px solid;
+    border-top: 3px solid;
     padding: 10px;
-
 }
 
 .banner{
     background-color:bisque;  
 }
 
-nav ul{
+.recipe-nav ul{
     white-space: nowrap;
     padding: 30px;
+    margin-right: 20px;
 }
 
-nav li{
+.recipe-nav li{
     display: inline-block;
     width: 33.3%;
     text-decoration: none;
     font-size: 20px;
     border-right: 3px solid;
-    white-space: nowrap;
 }
 
-.last-in-list{
+#last-in-list{
     border: none;
 }
 
@@ -54,12 +61,12 @@ img{
     border-radius: 20%; 
 }
 
-p{
+.recipe-description{
     line-height: 30px;
     margin: 0 400px;
 }
 
-ol{
+.instructions{
     display: table;
     margin-left: auto;
     margin-right: auto;
