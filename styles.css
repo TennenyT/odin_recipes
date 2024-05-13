@@ -1,7 +1,4 @@
-/*Add Header tag and change to color of homepage title bit*/
-*{
-    box-sizing: border-box;
-}
+
 body, ul, li, h1, h2, a{
     margin: 0;
     padding: 0;
@@ -51,10 +48,10 @@ body{
     border: none;
 }
 
-img{
+.recipe-image{
     display: block;
     margin: 10px auto 0 auto;
-    padding-top:27px;
+    padding-top: 27px;
     padding-bottom: 0;
     height: 450px;
     width: auto;
@@ -68,8 +65,8 @@ img{
 
 .instructions{
     list-style-position: inside;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 li{
