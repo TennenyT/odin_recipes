@@ -21,7 +21,7 @@ body{
     background-color:antiquewhite;
 }
 
-.banner{
+.header{
     background-color:bisque;
 }
 
@@ -81,6 +81,19 @@ ul,nav li,ol,p,h1,h2,.recipe-heading{
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
+
+.search-bar{
+    /*Seems bad for different viewports, still a bit shaky on position and display*/
+    position: absolute;
+    display: inline-block;
+    left: 32%;
+    top: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 8px;
+    font-size: 20px;
+}
+
 
 #main-heading{
     display: inline-block;
