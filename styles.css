@@ -9,25 +9,27 @@ ul,nav li,ol,p,h1,h2,.recipe-heading{
     text-align: center;
 }
 
+
 a:visited,
 a:link{
     text-decoration: none;
-    color: hsl(0, 0%, 0%, 75%);
+    color:hsla(0, 1%, 26%, 0.9);
     font-weight: bold;
 }
 
 a:hover{
     position: inline;
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
     font-weight: bold;
+    font-size: 19px;
 }
 
 body{
-    background-color:bisque;
+    background-color:rgb(252, 247, 247);
 }
 
 .header{
-    background-color:rgb(252, 198, 132);
+    background-color:rgb(255, 255, 255);
 }
 
 .recipe-nav ul{
@@ -79,7 +81,7 @@ li{
     border-bottom: 1px solid;
     border-top: 1px solid;
     margin-bottom: 50px;
-    background-color: rgb(245, 160, 56);
+    background-color: rgb(202, 201, 201);
     z-index: 1;
 }
 
@@ -95,6 +97,7 @@ li{
     font-size: 20px;
     border: 2px solid;
     border-radius: 10%;
+    background-color: hsla(0, 1%, 26%, 0.1);;
 }
 
 .menu-icon{
@@ -104,9 +107,9 @@ li{
 
 .home-page-text{
     font-size: 20px;
-    text-align: left;
-    margin-right: 50%;
-    margin-left: 20px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .introduction{
@@ -115,7 +118,8 @@ li{
     margin: 0 150px;
     overflow: auto;
     position: relative;
-    background-color:rgb(252, 198, 132);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px;
 }
 
 .introduction .home-page-text{
@@ -123,6 +127,7 @@ li{
     margin-left: 50%;
     margin-right: 50px;
     text-align: right;
+    color:hsla(0, 1%, 26%, 0.9);
 }
 
 .welcome{
@@ -132,11 +137,13 @@ li{
     font-size: 50px;
     top: 15%;
     left: 15%;
+    color:hsla(0, 1%, 26%, 0.9);
 }
 
 #main-heading{
     display: inline-block;
     position: relative;
     bottom: 15px;
+    color: hsla(0, 1%, 26%, 0.9);
 }
 
