@@ -84,14 +84,17 @@ ul,nav li,ol,p,h1,h2,.recipe-heading{
 
 .search-bar{
     /*Seems bad for different viewports, still a bit shaky on position and display*/
-    position: absolute;
+    position: relative;
     display: inline-block;
-    left: 32%;
-    top: 10px;
+    left: 10%;
+    bottom: 15px;
     padding: 20px;
     width: 500px;
     height: 8px;
     font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid;
+    border-radius: 10%;
 }
 
 
