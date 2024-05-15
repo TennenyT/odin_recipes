@@ -14,14 +14,12 @@ a:visited,
 a:link{
     text-decoration: none;
     color:hsla(0, 1%, 26%, 0.9);
-    font-weight: bold;
 }
 
 a:hover{
-    position: inline;
-    color: hsl(0, 0%, 0%);
+    color: hsl(0, 20%, 20%);
+    font-size: 16px;
     font-weight: bold;
-    font-size: 19px;
 }
 
 body{
@@ -30,6 +28,14 @@ body{
 
 .header{
     background-color:rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+.recipe-nav{
+    display:inline-block;
+    position: relative;
+    bottom: 15px;
+    margin-left: 100px;
 }
 
 .recipe-nav ul{
@@ -38,7 +44,7 @@ body{
 
 .recipe-nav li{
     display: inline-block;
-    width: 25%;
+    margin-right: 40px;
     text-decoration: none;
     font-size: 18px;
 }
@@ -89,7 +95,7 @@ li{
     /*Seems bad for different viewports, still a bit shaky on position and display*/
     position: relative;
     display: inline-block;
-    left: 10%;
+    left: 3%;
     bottom: 15px;
     padding: 20px;
     width: 500px;
