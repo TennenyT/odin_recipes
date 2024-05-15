@@ -76,7 +76,7 @@ li{
 
 .sticky{
     position: sticky;
-    top: 0;
+    top: -1px;
     padding: 10px;
     border-bottom: 1px solid;
     border-top: 1px solid;
