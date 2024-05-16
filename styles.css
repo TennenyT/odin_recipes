@@ -9,6 +9,18 @@ ul,nav li,ol,p,h1,h2,.recipe-heading{
     text-align: center;
 }
 
+.recipe-nav, .recipe-nav li{
+    display: inline-block;
+}
+
+#main-heading, .welcome, .search-bar, .recipe-nav, .menu-icon{
+    position: absolute;
+
+} 
+
+body{
+    background-color:rgb(252, 247, 247);
+}
 
 a:visited,
 a:link{
@@ -22,31 +34,84 @@ a:hover{
     font-weight: bold;
 }
 
-body{
-    background-color:rgb(252, 247, 247);
-}
-
 .header{
     background-color:rgb(255, 255, 255);
     margin-bottom: 50px;
+    height: 100px;
 }
 
 .recipe-nav{
-    display:inline-block;
-    position: relative;
-    bottom: 15px;
-    margin-left: 100px;
-}
-
-.recipe-nav ul{
-    white-space: nowrap;
+    top: 35px;
+    left: 930px;
 }
 
 .recipe-nav li{
-    display: inline-block;
     margin-right: 40px;
     text-decoration: none;
     font-size: 18px;
+}
+
+.search-bar{
+    left: 340px;
+    top: 25px;
+    padding: 20px;
+    width: 500px;
+    height: 8px;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 10%;
+    background-color: hsla(0, 1%, 26%, 0.1);;
+}
+
+.menu-icon{
+    top: 15px;
+}
+
+#main-heading{
+    left: 65px;
+    top: 10px;
+    color: hsla(0, 1%, 26%, 0.9);
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.home-page-text{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.introduction{
+    border: 1px solid;
+    padding: 20px;
+    margin: 0 150px;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px;
+}
+
+.introduction .intro-text{
+    margin: 0;
+    margin-left: 50%;
+    margin-right: 50px;
+    text-align: right;
+    font-size: 20px;
+    color:hsla(0, 1%, 26%, 0.9);
+}
+
+.welcome{
+    text-align: center;
+    font-size: 50px;
+    top: 210px;
+    left: 300px;
+    color:hsla(0, 1%, 26%, 0.9);
 }
 
 .recipe-image{
@@ -86,70 +151,7 @@ li{
     padding: 10px;
     border-bottom: 1px solid;
     border-top: 1px solid;
-    margin-bottom: 50px;
-    background-color: rgb(202, 201, 201);
+    background-color:rgb(255, 255, 255);
     z-index: 1;
-}
-
-.search-bar{
-    /*Seems bad for different viewports, still a bit shaky on position and display*/
-    position: relative;
-    display: inline-block;
-    left: 3%;
-    bottom: 15px;
-    padding: 20px;
-    width: 500px;
-    height: 8px;
-    font-size: 20px;
-    border: 2px solid;
-    border-radius: 10%;
-    background-color: hsla(0, 1%, 26%, 0.1);;
-}
-
-.menu-icon{
-    position: relative;
-    top: 5px;
-}
-
-.home-page-text{
-    font-size: 20px;
-    text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-
-.introduction{
-    border: 1px solid;
-    padding: 20px;
-    margin: 0 150px;
-    overflow: auto;
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 10px 10px;
-}
-
-.introduction .home-page-text{
-    margin: 0;
-    margin-left: 50%;
-    margin-right: 50px;
-    text-align: right;
-    color:hsla(0, 1%, 26%, 0.9);
-}
-
-.welcome{
-    display:inline-block;
-    position: absolute;
-    text-align: center;
-    font-size: 50px;
-    top: 15%;
-    left: 15%;
-    color:hsla(0, 1%, 26%, 0.9);
-}
-
-#main-heading{
-    display: inline-block;
-    position: relative;
-    bottom: 15px;
-    color: hsla(0, 1%, 26%, 0.9);
 }
 
