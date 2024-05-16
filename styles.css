@@ -30,7 +30,7 @@ a:link{
 
 a:hover{
     color: rgba(60,17,70,255);
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .header{
@@ -42,14 +42,21 @@ a:hover{
 }
 
 .recipe-nav{
-    top: 95px;
+    top: 90px;
     left: 730px;
 }
 
 .recipe-nav li{
-    margin-right: 40px;
     text-decoration: none;
     font-size: 24px;
+    margin-right: 70px;
+}
+
+.search-bar:focus{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(60,17,70,255);
+    outline: none;
+    caret-color: rgba(60,17,70,255);
 }
 
 .search-bar{
@@ -60,8 +67,8 @@ a:hover{
     height: 30px;
     font-size: 20px;
     border: 2px solid;
-    border-radius: 10%;
-    background-color: hsla(0, 1%, 26%, 0.1);
+    border-radius: 25px;
+    background-color: hsla(0, 1%, 26%, 2%);
 }
 
 .menu-icon{
