@@ -10,7 +10,7 @@ ul,nav li,ol,p,h1,h2,.recipe-heading{
 }
 
 .recipe-links, .recipe-links li{
-    display: inline;
+    display: inline-block;
 }
 
 /*#main-heading, .welcome, .search-bar, .recipe-nav, .menu-icon{
@@ -61,6 +61,7 @@ a:hover{
 .recipe-nav{
     align-self: center;
     margin-left: 40px;
+    margin-top: 20px;
 }
 
 .search-bar:focus{
@@ -78,27 +79,24 @@ a:hover{
     border: 2px solid;
     border-radius: 25px;
     background-color: hsla(0, 1%, 26%, 2%);
-    align-self: center;
+    align-self: end;
 }
 
 #main-heading{
     color: rgba(60,17,70,255);
-    font-size: 50px;
+    font-size: 65px;
+    font-family: Rockwell;
     font-weight: bold;
     unicode-bidi: isolate;
-    top: 10px;
-    left: 20px; 
-}
-
-.line{
-    height:100px;
-    width:100px;
-    border-bottom: 3px solid black;
 }
 
 .solid-line{
-    border: 3px solid black;
-    width: 100%;
+    position: absolute;
+    height:1000px;
+    width:90%;
+    bottom: 600px;
+    margin: 0 auto;
+    border-bottom: 4px solid rgba(60,17,70,255);
 }
 
 .home-page-text{
