@@ -80,6 +80,10 @@ a:hover{
     font-family: Brush Script MT;
 }
 
+.special-font{
+    color: rgba(60,17,70,50%);
+}
+
 .special-font-bigger{
     font-size: 60px;
 }
