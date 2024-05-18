@@ -14,7 +14,7 @@ ul,nav li,ol,p,h1,h2,.recipe-heading{
 }
 
 body{
-    background-color: rgb(252, 245, 234);
+    background-color:rgb(255, 255, 255);
 }
 
 a:visited,
@@ -43,12 +43,12 @@ a:hover{
 
 /*Banner*/
 .header{
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(252, 245, 234);
     margin-bottom: 30px;
     height: 130px;
     padding: 50px 50px 10px 50px;
-    border-bottom: 5px solid black;
-    border-top: 5px solid black;
+    border-bottom: 1px solid black;
+    border-top: 2px solid black;
     display: flex;
     justify-content: space-between;
     position: sticky;
