@@ -41,7 +41,6 @@ a:hover{
 }
 
 /*Banner*/
-
 .header{
     background-color:rgb(255, 255, 255);
     margin-bottom: 30px;
@@ -70,8 +69,6 @@ a:hover{
     font-weight: bold;
     unicode-bidi: isolate;
     margin-bottom: 0;
-    text-align: center;
-    empty-cells: show;
     border-left: 5px dashed black;  
     border-right: 5px dashed black;
     height: 400px;
