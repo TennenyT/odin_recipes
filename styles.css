@@ -14,7 +14,7 @@ ul,nav li,ol,p,h1,h2,.recipe-heading{
 }
 
 body{
-    background-color:rgb(252, 247, 247);
+    background-color: rgb(252, 245, 234);
 }
 
 a:visited,
@@ -49,6 +49,10 @@ a:hover{
     border-bottom: 5px solid black;
     display: flex;
     justify-content: space-between;
+    overflow: auto;
+    position: sticky;
+    top: -90px;
+    z-index: 1;
 }
 
 .center{
@@ -69,7 +73,7 @@ a:hover{
 .recipe-nav{
     align-self: center;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .recipe-links li{
@@ -86,7 +90,7 @@ a:hover{
     border: 2px solid;
     border-radius: 25px;
     background-color: hsla(0, 1%, 26%, 5%);
-    align-self: end;
+    align-self: center;
 }
 
 .search-bar:focus{
@@ -110,7 +114,7 @@ a:hover{
     border: 1px solid;
     padding: 20px;
     margin: 0 150px;
-    background-color: rgba(212,168,180,20%);;
+    background-color: rgba(212,168,180,40%);
     box-shadow: 10px 10px;
 }
 
@@ -133,6 +137,7 @@ a:hover{
 }
 
 /*Home Page Text*/
+
 .home-page-text{
     font-size: 20px;
     text-align: center;
