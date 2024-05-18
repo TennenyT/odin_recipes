@@ -45,13 +45,13 @@ a:hover{
     background-color:rgb(255, 255, 255);
     margin-bottom: 30px;
     height: 130px;
-    padding: 40px 50px 20px 50px;
+    padding: 50px 50px 10px 50px;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
     display: flex;
     justify-content: space-between;
     position: sticky;
-    top: -76px;
+    top: -82px;
     z-index: 1;
 }
 
@@ -64,15 +64,16 @@ a:hover{
 
 #main-heading{
     color: rgba(60,17,70,255);
-    font-size: 65px;
+    font-size: 50px;
     font-family: Rockwell;
     font-weight: bold;
     unicode-bidi: isolate;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    text-align: center;
     border-left: 5px dashed black;  
     border-right: 5px dashed black;
     height: 400px;
-}
+}   
 
 .recipe-nav{
     align-self: center;
@@ -113,8 +114,8 @@ a:hover{
 /*Welcome Box*/
 .introduction{
     border: 1px solid;
-    height: 380px;
     padding: 20px;
+    height: 390px;
     margin: 0 150px;
     background-color: rgba(212,168,180,40%);
     box-shadow: 10px 10px;
