@@ -37,6 +37,7 @@ a:hover{
 
 .horizontal-align-with-icon{
     display: flex;
+    margin-bottom:50px;    
 }
 
 /*Banner*/
@@ -44,14 +45,14 @@ a:hover{
 .header{
     background-color:rgb(255, 255, 255);
     margin-bottom: 30px;
-    height: 100px;
-    padding: 50px;
+    height: 130px;
+    padding: 50px 50px 10px 50px;
     border-bottom: 5px solid black;
+    border-top: 5px solid black;
     display: flex;
     justify-content: space-between;
-    overflow: auto;
     position: sticky;
-    top: -90px;
+    top: -87px;
     z-index: 1;
 }
 
@@ -59,7 +60,7 @@ a:hover{
     display: flex;
     width: 95%;
     margin: 0 auto;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #main-heading{
@@ -68,6 +69,12 @@ a:hover{
     font-family: Rockwell;
     font-weight: bold;
     unicode-bidi: isolate;
+    margin-bottom: 0;
+    text-align: center;
+    border-left: 5px dashed black;  
+    border-right: 5px dashed black;
+    height: 400px;
+    background-color: rgb(255, 227, 194, 30%);
 }   
 
 .recipe-nav{
@@ -101,11 +108,8 @@ a:hover{
 }
 
 .solid-line{
-    position: absolute;
     height:1000px;
-    width:90%;
-    bottom: 600px;
-    margin: 0 auto;
+    width:100%;
     border-bottom: 4px solid rgba(60,17,70,255);
 }
 
