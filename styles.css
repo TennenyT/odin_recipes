@@ -17,6 +17,10 @@ body{
     background-color:rgb(255, 255, 255);
 }
 
+.flex{
+    display: flex;
+}
+
 a:visited,
 a:link{
     text-decoration: none;
@@ -31,34 +35,32 @@ a:hover{
 
 /*Flex*/
 .vertical-flex{
-    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.horizontal-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+.horizontal-align-with-icon{
+    margin-bottom:50px;    
 }
 
 /*Banner*/
 .header{
     background-color: rgb(252, 245, 234);
-    height: 120px;
+    margin-bottom: 30px;
+    height: 130px;
+    padding: 50px 50px 10px 50px;
     border-bottom: 1px solid black;
     border-top: 2px solid black;
+    justify-content: space-between;
     position: sticky;
     top: -72px;
     z-index: 1;
-    padding: 30px;
-    padding-bottom: 40px;
-    margin-bottom: 50px;
 }
 
 .center{
-    width: 96%;
+    width: 95%;
     margin: 0 auto;
+    margin-left: 40px;
 }
 
 #main-heading{
@@ -66,13 +68,12 @@ a:hover{
     font-size: 30px;
     font-family: Rockwell;
     unicode-bidi: isolate;
+    margin-bottom: 10px;
+    padding-left: 10px;
     text-align: left;
     border-left: 5px dashed black;  
     border-right: 5px dashed black;
-    height:50px;
-    margin-top: -40px;
-    padding:10px;
-    padding-top: 20px;
+    height: 400px;
 }   
 
 .special-font, .special-font-bigger{
@@ -88,7 +89,9 @@ a:hover{
 }
 
 .recipe-nav{
-    margin-left: auto;
+    align-self: center;
+    margin-left: 40px;
+    margin-top: 5px;
 }
 
 .recipe-links li{
@@ -99,14 +102,13 @@ a:hover{
 
 .search-bar{
     padding: 20px;
-    width: 300px;
-    max-width: 300px;
+    width: 500px;
     height: 30px;
     font-size: 20px;
     border: 2px solid;
     border-radius: 25px;
     background-color: hsla(0, 1%, 26%, 5%);
-    align-self: left;
+    align-self: center;
 }
 
 .search-bar:focus{
@@ -117,7 +119,7 @@ a:hover{
 }
 
 .solid-line{
-    height:0;
+    height:1000px;
     width:100%;
     border-bottom: 4px solid rgba(60,17,70,255);
 }
