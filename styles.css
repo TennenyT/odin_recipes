@@ -50,7 +50,7 @@ a:hover{
 }
 
 .center{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -87,7 +87,7 @@ a:hover{
 }
 
 .recipe-links li{
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 25px;
     list-style-type: none;
 }
