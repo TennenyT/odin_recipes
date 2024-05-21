@@ -31,21 +31,30 @@ a:hover{
 
 /*Flex*/
 
-.flex{
+.flex-wrap{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
 }
 
+.flex-no-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.more-gap{
+    gap: 50px;
+}
+
 /*Banner*/
 .header{
     background-color: rgb(252, 245, 234);
-    margin-bottom: 30px;
     padding: 10px;
+    padding-top: 1px;
     border-bottom: 1px solid black;
     border-top: 2px solid black;
     position: sticky;
-    top: -65px;
+    top: -70px;
     z-index: 1;
 }
 
@@ -61,6 +70,7 @@ a:hover{
     unicode-bidi: isolate;
     margin-bottom: 10px;
     padding-left: 10px;
+    padding-top: 10px;
     text-align: left;
     border-left: 5px dashed black;  
     border-right: 5px dashed black;
@@ -77,7 +87,9 @@ a:hover{
 }
 
 .special-font-bigger{
-    font-size: 60px;
+    font-size: 80px;
+    letter-spacing: 10px;
+    color: rgba(60,17,70,80%);
 }
 
 .recipe-nav{
@@ -118,34 +130,37 @@ a:hover{
     border-bottom: 4px solid rgba(60,17,70,255);
 }
 
+.solid-line-thicker{
+    height: 0;
+    border-bottom: 8px solid rgba(60,17,70,255);
+}
+
 /*Welcome Box*/
 .introduction{
     border: 1px solid;
     padding: 20px;
-    height: 390px;
-    margin: 0 150px;
+    height: 460px;
     background-color: rgba(212,168,180,40%);
-    box-shadow: 10px 10px;
+    min-width: 0;
+    margin: 0 auto;
 }
 
 .welcome{
-    text-align: center;
-    font-size: 50px;
+    font-size: 65px;
     font-family: Rockwell;
-    top: 300px;
-    left: 300px;
     color:rgba(60,17,70,255);
-    position: absolute;
+    display: inline;
+    margin-bottom: 35px;
+}
+
+.home-page-images{
+    align-self: center;
 }
 
 .introduction .intro-text{
-    margin: 0;
-    margin-left: 50%;
-    margin-top: 20px;
-    margin-right: 50px;
-    text-align: right;
     font-size: 20px;
     color: grey;
+    margin:0;
 }
 
 /*Home Page Text*/
@@ -153,8 +168,9 @@ a:hover{
 .home-page-text{
     font-size: 20px;
     text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 /*Recipe Pages*/
