@@ -141,8 +141,8 @@ a:hover{
     padding: 20px;
     height: 460px;
     background-color: rgba(212,168,180,40%);
-    min-width: 0;
     margin: 0 auto;
+    /*min-width, min-height?*/
 }
 
 .welcome{
